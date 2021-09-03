@@ -277,6 +277,10 @@ body {
     line-height: 1;
 }
 
+p {
+  font-family: 'Lato';
+  font-size: 20px
+}
 
 
 
@@ -346,6 +350,13 @@ body {
   margin: 20px 120px;
 }
 
+.cards4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  margin: 20px 120px;
+}
+
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
@@ -384,13 +395,13 @@ body {
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 
 .footer {
-  background: #BF6B4D;
+  background: #77933C;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70px;
+  height: 160px;
   padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
+  color: white;
 }
 .footer-links {
   display: flex;
