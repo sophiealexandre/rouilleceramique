@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>MyPortfolio Bootstrap Template - Contact</title>
+  <title>MyPortfolio Bootstrap Template - Services</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -43,9 +43,9 @@
           <ul class="custom-menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Me</a></li>
-            <li><a href="services.html">Services</a></li>
+            <li class="active"><a href="services.html">Services</a></li>
             <li><a href="works.html">Works</a></li>
-            <li class="active"><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
         <div class="col-md-6 d-none d-md-block  mr-auto">
@@ -76,79 +76,117 @@
 
   <main id="main">
 
-    <section class="section pb-5">
+    <section class="section">
       <div class="container">
-
-        <div class="row mb-5 align-items-end">
+        <div class="row mb-4 align-items-center">
           <div class="col-md-6" data-aos="fade-up">
-            <h2>Contact</h2>
-            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut
-              officiis explicabo inventore.
-            </p>
+
+            <h2>My Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis
+              explicabo inventore.</p>
+
           </div>
 
         </div>
+      </div>
 
-        <div class="row">
-          <div class="col-md-6 mb-5 mb-md-0" data-aos="fade-up">
+      <div class="site-section pb-0 services">
+        <div class="container">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
 
-              <div class="row gy-3">
-                <div class="col-md-6 form-group">
-                  <label for="name">Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="col-md-6 form-group">
-                  <label for="name">Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-                <div class="col-md-12 form-group">
-                  <label for="name">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject" required>
-                </div>
-                <div class="col-md-12 form-group">
-                  <label for="name">Message</label>
-                  <textarea class="form-control" name="message" cols="30" rows="10" required></textarea>
-                </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+              <i class="bi bi-card-checklist"></i>
+              <h4 class="h4 mb-2">Web Design</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
+              <ul class="list-unstyled list-line">
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
+                <li>Non pariatur nisi</li>
+                <li>Magnam soluta quod</li>
+                <li>Lorem ipsum dolor</li>
+                <li>Cumque quae aliquam</li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-binoculars"></i>
+              <h4 class="h4 mb-2">Mobile Applications</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
+              <ul class="list-unstyled list-line">
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
+                <li>Non pariatur nisi</li>
+                <li>Magnam soluta quod</li>
+                <li>Lorem ipsum dolor</li>
+                <li>Cumque quae aliquam</li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+              <i class="bi bi-brightness-high"></i>
+              <h4 class="h4 mb-2">Graphic Design</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
+              <ul class="list-unstyled list-line">
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
+                <li>Non pariatur nisi</li>
+                <li>Magnam soluta quod</li>
+                <li>Lorem ipsum dolor</li>
+                <li>Cumque quae aliquam</li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-calendar4-week"></i>
+              <h4 class="h4 mb-2">SEO</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
+              <ul class="list-unstyled list-line">
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
+                <li>Non pariatur nisi</li>
+                <li>Magnam soluta quod</li>
+                <li>Lorem ipsum dolor</li>
+                <li>Cumque quae aliquam</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                <div class="col-md-12 my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
+    <!-- ======= Testimonials Section ======= -->
+    <section class="section pt-0">
+      <div class="container">
 
-                <div class="col-md-6 mt-0 form-group">
-                  <input type="submit" class="readmore d-block w-100" value="Send Message">
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial">
+                  <img src="assets/img/person_1.jpg" alt="Image" class="img-fluid">
+                  <blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis
+                      explicabo inventore.</p>
+                  </blockquote>
+                  <p>&mdash; Jean Hicks</p>
                 </div>
               </div>
+            </div><!-- End testimonial item -->
 
-            </form>
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial">
+                  <img src="assets/img/person_2.jpg" alt="Image" class="img-fluid">
+                  <blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis
+                      explicabo inventore.</p>
+                  </blockquote>
+                  <p>&mdash; Chris Stanworth</p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
 
           </div>
-
-          <div class="col-md-4 ml-auto order-2" data-aos="fade-up">
-            <ul class="list-unstyled">
-              <li class="mb-3">
-                <strong class="d-block mb-1">Address</strong>
-                <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
-              </li>
-              <li class="mb-3">
-                <strong class="d-block mb-1">Phone</strong>
-                <span>+1 232 3235 324</span>
-              </li>
-              <li class="mb-3">
-                <strong class="d-block mb-1">Email</strong>
-                <span>youremail@domain.com</span>
-              </li>
-            </ul>
-          </div>
-
+          <div class="swiper-pagination"></div>
         </div>
 
       </div>
-
-    </section>
+    </section><!-- End Testimonials Section -->
 
   </main><!-- End #main -->
 
